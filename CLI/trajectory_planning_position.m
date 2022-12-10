@@ -11,4 +11,3 @@ function [pe] = trajectory_planning_position(A, t, step)
         end
     end
 end
-
