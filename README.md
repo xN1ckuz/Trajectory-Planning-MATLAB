@@ -24,12 +24,12 @@ To use the Command Line version, go to the CLI folder and start the trajectoryPl
 
 The approach used is to have the user enter files with the .mat extension containing the variables and data on positions, travel times and rotation matrices. We chose this approach as the simplest, and it is the one that fully exploits the potential of the MATLAB environment. These files with the .mat extension can be opened and modified in the environment itself, as in figure below. 
 
-![alt text](https://github.com/xN1ckuz/Trajectory-Planning/blob/main/Results/data.png)
+![alt text](https://github.com/xN1ckuz/Trajectory-Planning/blob/main/Results/data.jpg)
 
 In this way, we avoided the user to enter data in an inconvenient way within the GUI. The user will only have to prepare the data before inserting into our application. The graphical interface of the application is shown in figure below.
 
-![alt text](https://github.com/xN1ckuz/Trajectory-Planning/blob/main/Results/gui.png)
+![alt text](https://github.com/xN1ckuz/Trajectory-Planning/blob/main/Results/gui.jpg)
 
 In the top left square it is possible to insert the .mat files concerning the position data and travel times. Instead, the file for the rotation matrices is inserted in the lower left square. In the upper box, there is a label that updates based on the progress of the operations. Once the data has been entered, it appears in the two respective boxes on the right, in the form of a table. If the entered data is correct, the "Generate Trajectory" button is activated, with which the user can plan the trajectory. Post-calculation, in addition to updating the label, the key "Generate Graphs" is activated; by pressing the button, two windows are opened; in the first there is an animated simulation of the trajectory, in the second the trend over time of the variables of interest. The final result is shown in figure below.
 
-![alt text](https://github.com/xN1ckuz/Trajectory-Planning/blob/main/Results/simulation.png)
+![alt text](https://github.com/xN1ckuz/Trajectory-Planning/blob/main/Results/simulation.jpg)
